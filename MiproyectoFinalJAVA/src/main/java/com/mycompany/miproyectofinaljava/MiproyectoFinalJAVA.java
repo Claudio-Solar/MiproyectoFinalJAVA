@@ -12,6 +12,10 @@ package com.mycompany.miproyectofinaljava;
 public class MiproyectoFinalJAVA {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    
+        Formularios.MenuPrincipal objetoMenuPrincipal=new Formularios.MenuPrincipal();
+        objetoMenuPrincipal.setVisible(true);
+        
+       
     }
 }
